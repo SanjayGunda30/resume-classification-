@@ -1,9 +1,9 @@
-pip install tika
+import tika
+tika.initVM()
+from tika import parser
 import pickle
 import streamlit as st
 import pandas as pd
-tika.initVM()
-from tika import parser
 import re
 import spacy
 import nltk
