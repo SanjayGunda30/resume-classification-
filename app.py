@@ -1,7 +1,8 @@
-!pip install tika
+pip install tika
 import pickle
 import streamlit as st
 import pandas as pd
+tika.initVM()
 from tika import parser
 import re
 import spacy
