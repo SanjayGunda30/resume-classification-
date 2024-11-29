@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 27 00:18:45 2024
-
-@author: viraj
-"""
 import pickle
 import streamlit as st
 import pandas as pd
