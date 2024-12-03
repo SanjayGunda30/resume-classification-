@@ -1,5 +1,6 @@
 
 import py4j
+from py4j.java_gateway import JavaGateway
 import pickle
 import streamlit as st
 import pandas as pd
